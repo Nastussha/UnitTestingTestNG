@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteMaster" verbose="1" >
+    <suite-files>
+        <suite-file path="xml-files/JsonParserTest.xml"></suite-file>
+        <suite-file path="xml-files/CartTest.xml"></suite-file>
+        <suite-file path="xml-files/ItemsTest.xml"></suite-file>
+    </suite-files>
+</suite>
