@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite3_ItemsTest" verbose="1" >
+    <test name="ItemsTest">
+        <groups>
+            <run>
+                <exclude name="RealItemTest"></exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="shop.VirtualItemTest"></class>
+            <class name="shop.RealItemTest"></class>
+        </classes>
+    </test>
+
+</suite>
